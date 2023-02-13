@@ -4,6 +4,10 @@ import java.util.Random;
 public class Poker {
 
     public Poker() {
+        osztas();
+        osztas();
+    }
+    public void osztas(){
         System.out.printf(
             "%d %d %d %d %d\n",    
             getPitch(),
